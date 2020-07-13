@@ -1,21 +1,20 @@
 {
 	"DefaultValues": {
 
-		"interstitials_time": 15,//默认插屏时间为15s
-		"skin_enable":false, //默认皮肤关闭
+		"free_enable":true, //首次免费开启
 		"AB_test_users": 0//进入AB测试的比例（0%-100%）
 	},
 	"ABtests": {//Ref组（默认值对照组）
-		"1.1.1Ref": {
+		"1.0.7Ref": {
 			"panel_size": 10//权重
 		},
-		"1.1.1A": { //A组
+		"1.0.7A": { //A组
 			"panel_size": 10,//权重
-		    "skin_enable":true//皮肤功能开启
+			"free_enable":true//首次免费功能开启
 		},
-	    "1.1.1B": { //B组
+	    	"1.0.7B": { //B组
 		"panel_size": 10,//权重
-		"interstitials_time":60//插屏时间为60s
+		"free_enable":false//首次免费功能关闭
 		}
 	}
 }
