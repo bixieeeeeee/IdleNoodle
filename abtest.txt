@@ -1,20 +1,20 @@
 {
 	"DefaultValues": {
 
-		"free_enable":true, //首次免费开启
-		"AB_test_users": 0//进入AB测试的比例（0%-100%）
+		"free_enable":true, 
+		"AB_test_users": 100
 	},
-	"ABtests": {//Ref组（默认值对照组）
+	"ABtests": {
 		"1.0.7Ref": {
-			"panel_size": 10//权重
+			"panel_size": 10
 		},
-		"1.0.7A": { //A组
-			"panel_size": 10,//权重
-			"free_enable":true//首次免费功能开启
+		"1.0.7A": {
+			"panel_size": 10,
+			"free_enable":true
 		},
-	    	"1.0.7B": { //B组
-		"panel_size": 10,//权重
-		"free_enable":false//首次免费功能关闭
+	    	"1.0.7B": {
+		"panel_size": 10,
+		"free_enable":false
 		}
 	}
 }
