@@ -2,19 +2,16 @@
 	"DefaultValues": {
 
 		"free_enable":true, 
+		"is_hold":false, 
 		"AB_test_users": 100
 	},
 	"ABtests": {
-		"1.0.7Ref": {
+		"1.1.0Ref": {
 			"panel_size": 10
 		},
-		"1.0.7A": {
+		"1.1.0A": {
 			"panel_size": 10,
-			"free_enable":true
+			"is_hold":true, 
 		},
-	    	"1.0.7B": {
-		"panel_size": 10,
-		"free_enable":false
-		}
 	}
 }
